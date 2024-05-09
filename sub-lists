@@ -1,0 +1,5 @@
+function quickSort(arr, left, right) {
+    var len = arr.length,
+        partitionIndex,
+        left =typeof left !='number' ? 0 : left,
+        right =typeof right !='number' ? len - 1 : right;
