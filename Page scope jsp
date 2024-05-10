@@ -1,0 +1,3 @@
+<% 
+       pageContext.setAttribute("message", "Hello from page scope");
+   %>
