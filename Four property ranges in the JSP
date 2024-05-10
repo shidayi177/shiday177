@@ -1,0 +1,5 @@
+request.setAttribute("message", "Hello from request scope");
+
+session.setAttribute("message", "Hello from session scope");
+
+application.setAttribute("message", "Hello from application scope");
