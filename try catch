@@ -1,0 +1,12 @@
+  public static void readFile(String filePath) throws FileNotFoundException, IllegalAccessException{
+    File file = new File(filePath);
+    if(!file.exists()){
+      throw new FileNotFoundException(filePath+"error");
+    }
+     if(!file.isFile()){
+      throw new IllegalAccessException(filePath + "error");
+    }
+    //...
+  }
+  
+}
