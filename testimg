@@ -1,0 +1,4 @@
+def identityRecognition(testimg,known_face_encodings,known_face_names,Threshold):
+    face_locations = face_recognition.face_locations(testimg)
+    # face_locations = face_recognition.face_locations(testimg, model="cnn")
+    face_encodings = face_recognition.face_encodings(testimg, face_locations)
