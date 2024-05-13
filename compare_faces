@@ -1,0 +1,7 @@
+      # face_locations = face_recognition.face_locations(testimg, model="cnn")
+    face_encodings = face_recognition.face_encodings(testimg, face_locations)
+    retname, retscore = "Noface", 0
+    for face_encoding in face_encodings:
+        matches, score = compare_faces(known_face_encodings, face_encoding,Threshold)
+        retname, retscore = "Unknow", 0
+        if True in matches:
