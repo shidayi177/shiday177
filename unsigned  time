@@ -1,0 +1,6 @@
+	p_AP = (NODE*)malloc(sizeof(NODE));
+	srand((unsigned)time(NULL));
+	p_AP->x = rand() % (WIDTH - aw) + (WINDOW_WIDTH / 2 - WIDTH / 2);
+	p_AP->y = APStart;
+	p_AP->pnext = NULL;
+	b3 = GetTickCount();
