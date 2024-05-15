@@ -1,0 +1,5 @@
+	p_AP2 = (NODE*)malloc(sizeof(NODE));
+	p_AP2->x = rand() % (WIDTH - aw) + (WINDOW_WIDTH / 2 - WIDTH / 2);
+	p_AP2->y = -350;
+	p_AP2->pnext = NULL;
+	b5 = GetTickCount();
