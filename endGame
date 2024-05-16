@@ -1,0 +1,16 @@
+{
+	if (speed >= 120)
+		speed -= 20;
+}
+int endGame(void)
+{
+	char x = 0;
+	char judge[5];
+
+	getchar();
+	gotoxy(60, 9);
+	printf("确定退出吗?(Yes/No)");
+	gotoxy(60, 11);
+	s_gets(judge, 5);
+
+	if (strcmp(judge, "Yes") == 0)
