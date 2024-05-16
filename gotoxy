@@ -1,0 +1,23 @@
+	{
+		Sleep(250);
+			{
+		Sleep(250);
+		system("cls");
+		gotoxy(40, 11);
+		printf("\tBye!");
+		x = 1;
+	}
+	else
+		x = 0;
+
+	return x;
+}("cls");
+		gotoxy(40, 11);
+		printf("\tBye!");
+		x = 1;
+	}
+	else
+		x = 0;
+
+	return x;
+}
